@@ -55,7 +55,7 @@ def insertion_sort(nums):
 list_of_nums = eval(input())
 insertion_sort(list_of_nums)
 print(list_of_nums)
-
+``
 ## Output:
 ![Screenshot 2023-12-25 150450](https://github.com/MounishT/Sorting-Algorithm/assets/138955798/a1e1946b-4e11-409c-9601-7393b77cb43a)
 ![Screenshot 2023-12-25 150510](https://github.com/MounishT/Sorting-Algorithm/assets/138955798/56eadd12-99e8-41d5-8134-afdc3738297c)
