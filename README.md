@@ -52,10 +52,6 @@ def insertion_sort(nums):
             nums[j+1]=nums[j]
             j-=1
         nums[j+1]=item_to_insert
-    
-    
-    
-    
 list_of_nums = eval(input())
 insertion_sort(list_of_nums)
 print(list_of_nums)
