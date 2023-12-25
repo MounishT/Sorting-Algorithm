@@ -23,14 +23,14 @@ i)	#Selection Sort
 Program to sort the elements in the list using the Selection Sort algorithm.
 Developed by: T.MOUNISH 
 RegisterNumber: 23002806
-
+```
 def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index=i
         for j in range(i+1, len(nums)):
             if nums[j]<nums[lowest_value_index]:
                 lowest_value_index=j
-        nums[i],nums[lowest_value_index]=nums[lowest_value_index],nums[i]
+ nums[i],nums[lowest_value_index]=nums[lowest_value_index],nums[i]
     
     
     
@@ -43,7 +43,7 @@ ii)	#Insertion Sort
 Program to sort the elements in the list using the Insertion Sort algorithm.
 Developed by:T.MOUNISH
 RegisterNumber: 23002806
-
+```
 def insertion_sort(nums):
     for i in range(1, len(nums)):
         item_to_insert=nums[i]
