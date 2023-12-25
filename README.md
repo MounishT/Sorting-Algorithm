@@ -19,9 +19,11 @@ To write a program to perform selection sort and insertion sort using python pro
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
 i)	#Selection Sort
+
 Program to sort the elements in the list using the Selection Sort algorithm.
 Developed by: T.MOUNISH 
 RegisterNumber: 23002806
+
 def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index=i
@@ -36,10 +38,12 @@ def selection_sort(nums):
 list_of_nums = eval(input())
 selection_sort(list_of_nums)
 print(list_of_nums)
-ii)	#Insertion Sort 
+ii)	#Insertion Sort
+
 Program to sort the elements in the list using the Insertion Sort algorithm.
 Developed by:T.MOUNISH
 RegisterNumber: 23002806
+
 def insertion_sort(nums):
     for i in range(1, len(nums)):
         item_to_insert=nums[i]
